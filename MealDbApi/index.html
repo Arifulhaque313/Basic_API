@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+<body class="bg-gray">
+    
+    <h2 class="text-center text-success">Search your Fv Food</h2>
+    
+    <div class="mx-auto w-50 input-group mt-3 mb-3">
+        <input id="searchField" type="text" class="form-control" placeholder="Search the food you want" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <button onclick="searchfood()" class="btn btn-outline-secondary" type="button" id="search">Search</button>
+    </div>
+
+    <!-- meal search area  -->
+<div id="searchResult" class="row row-cols-1 row-cols-md-2 g-4">
+ 
+  
+</div>
+    
+    
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <script src="mealDbApi.js"></script>
+</body>
+</html>
